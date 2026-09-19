@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xr6-pro"
+version = "0.1.0"
+authors = [
+  { name="Dr. Mohd Rahmat Nasyaa Bin Zulkifli, PhD", email="matt@xr6labs.com" },
+]
+description = "Core Python utilities for ZK-PoE attestation, eco-compute energy metrics, and privacy-preserving data structures by XR6 Labs HQ."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://www.xr6labs.com"
+"Repository" = "https://github.com/XR6matt/xr6-pro"
